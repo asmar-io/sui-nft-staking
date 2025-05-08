@@ -1,0 +1,10 @@
+[package]
+name = "staking"
+version = "0.0.1"
+published-at = "0x86fb9a85e3cfcc990f784ec8728bed55736adffea8c3b63f9dfb650957aabb40"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "ae1212baf8f0837e25926d941db3d26a61c1bea2", subdir = "crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+staking = "0x86fb9a85e3cfcc990f784ec8728bed55736adffea8c3b63f9dfb650957aabb40"
